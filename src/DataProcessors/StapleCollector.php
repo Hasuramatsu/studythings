@@ -4,7 +4,7 @@ namespace App\DataProcessors;
 use App\Database;
 use App\Downloader\StapleListFile;
 use DateTime;
-use const Classes\FORMATS_LIST;
+use const App\Globals\FORMATS_LIST;
 
 class StapleCollector
 {
