@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes;
+namespace App\Globals;
 const STANDARD = 'st';
 const PIONEER = 'pi';
 const MODERN = 'mo';
@@ -9,7 +9,3 @@ const CEDH = 'cedh';
 const DEDH = 'edh';
 
 const FORMATS_LIST = [STANDARD, PIONEER, MODERN, PAUPER, CEDH, DEDH];
-class Formats
-{
-
-}
