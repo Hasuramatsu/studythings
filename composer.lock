@@ -1,0 +1,21 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e1afcd2cd791f04d5a0a87ac8b19e3c9",
+    "packages": [],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-pdo": "*",
+        "ext-dom": "*"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

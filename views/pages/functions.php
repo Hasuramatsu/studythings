@@ -1,13 +1,13 @@
 <?php
 
-require_once "Top8Scrapper.php";
-require_once "Database.php";
-require_once "DataProcessor.php";
+use src\Classes\Database;
+
+require 'vendor/autoload.php';
 
 function calc_latest_tables(Database $db,array $formats = []): array //Return array with latest table name for each format
 {
     $arFormats = sizeof($formats) > 0 ? $formats : ['st', 'pi', 'mo', 'pau', 'cedh', 'edh'];
-    $tableNames = $db->get_table_names()->fetchAll();
+    $tableNames = $db->getTableNames()->fetchAll();
     $tempTableNames = [];
     foreach ($tableNames as $tableName)
     {

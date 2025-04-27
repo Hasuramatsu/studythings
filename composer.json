@@ -1,0 +1,16 @@
+{
+    "name": "hasuramatsu/testing-things",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Interfaces\\": "src/Interfaces"
+        },
+        "files": [
+            "src/Globals/Formats.php"
+        ]
+    },
+    "require": {
+      "ext-pdo": "*",
+      "ext-dom": "*"
+    }
+}
